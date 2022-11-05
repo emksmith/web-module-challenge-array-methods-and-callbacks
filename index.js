@@ -33,13 +33,17 @@ Use getFinals to do the following:
 */
 
 
-const getFinals = fifaData.filter((element) => {
-    return element.Stage === 'Final'
-        
-    }
-  );
-  
-  console.log(getFinals)
+function getFinals(array) {
+    const newArray = array.filter((element) =>{
+        if (element.Stage === "Final")
+        return array
+
+    })
+
+  }
+  console.log(fifaData)
+
+ 
   
 
 
